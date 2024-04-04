@@ -114,6 +114,6 @@ app.get('/rooms', (req, res)=> {
 
 process.noDeprecation = true;
 
-server.listen(process.env.PORT || 6010, ()=> {
+server.listen(process.env.PORT, ()=> {
   console.log('listening to port Atlas mongodb')
 })
